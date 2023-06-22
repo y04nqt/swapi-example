@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# How to Start
+- you'll need npm and node as a prerequisite inorder to start up this project. 
+- open up your terminal and run `npm install`
+- once that is done, run `npm run start`
+
+## some thoughts
+- I didn't include any tests because it would take me extra time than the requested amount
+- I used a mix of Tailwind and MUI for haste, not something that is recommended but I like the utility of TW.
+- I could have used more material components, but I wanted to show off some TW tricks, plus TW tends to be a bit faster for me
+- I try to keep to the react way of architecting paradigm and do what is necessary for the time being. I could have taken the code and broken it out into more files. For this project, I decided to keep helpers and other exportables/importables in the file I created it in to start.
+- I chose CRA because it was easy to spin up and get started, for this project it worked perfectly due to the nature of simple data retrieval. If the use-cases for this were more expansive, I may pick a different tech stack that would have more technology available for advance use cases.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,18 +41,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
